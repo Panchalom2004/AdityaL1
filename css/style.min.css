@@ -69,7 +69,7 @@ padding: 26px 30px;
 } */
 
 .background{
-   background: rgba(241, 238, 237, 0.7) url('images/sun%20and%20earth.jpg');
+   background: rgba(241, 238, 237, 0.7) url('images/sun\ and\ earth.jpg');
    background-size: cover;
    background-blend-mode: darken;
 }
