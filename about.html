@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style1.css">
+    <script>
+        function toggleContent(id) {
+            var moreText = document.getElementById(id);
+            var readMoreLink = document.getElementById("readMoreLink");
+            
+            if (moreText.style.display === "none" || moreText.style.display === "") {
+                moreText.style.display = "block";
+                readMoreLink.innerHTML = "Read Less";
+            } else {
+                moreText.style.display = "none";
+                readMoreLink.innerHTML = "Read More";
+            }
+        }
+    </script>
+</head>
+<body>
+    
+<div class="container">
+
+    <h1 class="title">About Us</h1>
+    <div class="about-content">
+        <div class="image">
+            <img src="images/about.jpg">
+        </div>
+        <div class="content">
+            <p>We are a group of Bachelor of Computer Science (BCS) students from Yashwant College in Nanded. We share a strong interest in space exploration and technology. With the guidance and support of our teachers, especially Mr.N.A.Naik sir, we have prepared an exciting project focused on the Aditya-L1 mission for the academic year 2023-2024.</p><br>
+            <p id="moreText1" style="display: none;">Inspired by ISRO's successful missions, such as Chandrayaan and Mars Orbiter Mission, showcasing India's space technology achievements. "Mission Mangal" film celebrated ISRO's dedication, sparking our interest in space exploration. We're intrigued by India's solar mission, Aditya-L1, studying the Sun's outer layer's impact on Earth. We share a passion for space exploration and the possibilities it offers. Our BCS backgrounds equip us with STEM skills vital for space-related projects.<br><br>                
+                Our project, centered around the Aditya-L1 mission, marks our passionate foray into the realm of space exploration and technology. As Bachelor of Computer Science (BCS) students at Yashwant College, Nanded, we have a unique opportunity to delve into the intricate details of India's groundbreaking solar observation endeavor.<br><br> Our primary goal is to comprehensively analyze the mission, from its scientific objectives to the advanced technology driving it forward. With our background in computer science, we're particularly excited about exploring the role of cutting-edge software and data analytics in space research. Moreover, we're committed to educational outreach, sharing our project's insights to inspire future generations of space enthusiasts.<br><br> Under the guidance of our dedicated teachers, especially Mr. Naik, we aspire not only to deepen our knowledge of space technology but also to pave the way for future contributions in this exciting field.<br><br>          
+           
+            This project represents a passionate journey into the realm of space exploration and technology. Our primary objective is to delve into the intricacies of the Aditya-L1 mission, India's remarkable solar observation endeavor. Our project will serve as a stepping stone toward our future aspirations in space-related fields. Through our project, we hope to not only deepen our knowledge of space technology but also inspire others to explore the wonders of our universe.</p>
+            <a href="javascript:void(0);" class="readmore" id="readMoreLink" onclick="toggleContent('moreText1');">Read More</a><br><br>
+            <h1>Our team :</h1><br>
+            <p>Gudsoorkar Vedant, Parware Kashinth, Dhage Akash, Bhosale Aditya, Shinde Piyush, Biradar Sumit, Shaikh Soheluddin, Junne Vaibhav, Patki Nitin, Hanmante Nagsen, Paitwar Om, Jaybhaye Vaijanath, Panchal Omkar, Rajewar Janhavi, Kawale Pallavi, Virshaiv Rachana, Mundhe Bhakti, Manikdurge Rutuja, Patil Nagmani, Adkine Kanchan, Bhange Pratiksha, Bhople Kirtika, Bhujbal Sakshi, Bhujbal Shivani, Bindage Vaishnavi, Bodke Divya, Bodke Prashnt, Bodkhe Laxman, Chatap Shweta, Chittewad Santoshi, Dakhore Prashant, Dakhore Rushikesh, Deshmukh Varad, Dhone Shreya, Dhumal Padmakar, Gagalwad Jai, Govindrao Telange, Gudsoorkar Vedant, Hambarde Tushar, Ingle Ganesh, Jadhav Suraj, Jadhav Monika, Jadhav Pallavi, Kalyankar Sanjana, Kankal Pallavi, Kendre Akash, Khamnekar Krishna, Khandagale Nandani, Kuldipake Dilesh, Kurkutlawar Nikita, Latkar Savita, Limbure Shweta, Malegave Rupali, Markunde Prathamesh, Panpatte Vaishnavi, Phulwale Tanvi, Shrungare Dnyaneshwar, Swami Shraddha, Vedpathak Nikita, Waghmare Premala.</p> </div>
+     
+    </div>
+   
+</div>
+
+          
+</body>
+</html>
